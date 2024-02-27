@@ -16,7 +16,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # About Me
 
-Hi, I'm a research assistant with passions in robotics, embedded firmware, and anything with cool tech demos. I also make videos on [Youtube channel][youtube_link] and play ultimate frisbee for fun.
+Hi, I'm a research assistant with passions in robotics, embedded firmware, and anything with cool tech demos. I also make videos on my[Youtube channel][youtube_link] and play ultimate frisbee for fun.
 
 * * *
 
