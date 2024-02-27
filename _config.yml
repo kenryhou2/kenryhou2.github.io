@@ -1,4 +1,9 @@
 theme: jekyll-theme-minimal
 logo: /assets/img/logo.jpg
-description: [Hi there. Thanks for stopping by!]
+description: >
+  Makes Robots
+baseurl: ''
+github_username: kenryhou2
+x-introduction: >
+  Electrical Engineering and robotics enthusiast.
 
