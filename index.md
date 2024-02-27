@@ -16,15 +16,15 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # About Me
 
-Hi, I'm a research assistant with passions in robotics, embedded firmware, and anything with cool tech demos. I also make videos and play ultimate frisbee for fun. You should checkout my youtube channel [Youtube channel]([youtube_link]) to get to know more about me.
+Hi, I'm a research assistant with passions in robotics, embedded firmware, and anything with cool tech demos. I also make videos on [Youtube channel][youtube_link] and play ultimate frisbee for fun.
 
 * * *
 
 # Education
-* University of California, Los Angeles,
-Bachelor of Science degree in
-[Electrical Engineering][ucla_ee_link] with
-technical breadth in Computer Science (2017-2021).
+* 2024: Master's of Science at ? (coming soon..)
+* 2017 - 2021: University of California, Los Angeles,
+Bachelor's of Science degree in
+[Electrical Engineering][ucla_ee_link]
 
 <!-- > This is a blockquote following a header.
 >
@@ -39,7 +39,7 @@ technical breadth in Computer Science (2017-2021).
 * 2019: Summer Research Assistant on [Confined space laser scanner][blaser].
 
 ### Texas Instruments
-* 2023 - 2024: Applications Engineer for DC Switching Regulators - Buck (WideVin) Group
+* 2023 - 2024: Applications Engineer for Switching Regulators, [Buck WVin][TI_link] Group
 * 2022: Power Design Services Rotation
 * 2021: Applications Engineer Rotation
 
@@ -156,3 +156,4 @@ The final element.
 [bio_link]: http://biorobotics.ri.cmu.edu/index.php
 [howie_choset]: https://en.wikipedia.org/wiki/Howie_Choset
 [resume_link]: /assets/files/Henry_Kou_Resume_W23.pdf
+[TI_link]: https://www.ti.com/power-management/non-isolated-dc-dc-switching-regulators/overview.html 

@@ -1,0 +1,440 @@
+@import "fonts";
+@import "rouge-github";
+
+.column {
+  float: left;
+  width: 45.00%;
+  padding: 5px;
+}
+
+div:after {
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+body {
+  padding:50px;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#727272;
+  font-weight:400;
+  background:#fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#111;
+  margin:0 0 20px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin:0 0 20px;
+}
+
+h1, h2, h3 {
+  line-height:1.1;
+}
+
+h1 {
+  font-size:28px;
+}
+
+h1.maintitle {
+  margin:0 0 5px;
+}
+
+h2 {
+  color:#393939;
+}
+
+h3, h4, h5, h6 {
+  color:#494949;
+}
+
+h3.subtitle {
+  color:#004764;
+}
+
+a {
+  color:#0070c9;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color:#069;
+  text-decoration: underline;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.3em;
+  display:block;
+}
+
+a:hover small {
+  color:#777;
+}
+
+.wrapper {
+  width:860px;
+  margin:0 auto;
+}
+
+blockquote {
+  border-left:1px solid #e5e5e5;
+  margin:0;
+  padding:0 0 0 20px;
+  font-style:italic;
+}
+
+code, pre {
+  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  color:#333;
+}
+
+pre {
+  padding:8px 15px;
+  background: #f8f8f8;
+  border-radius:5px;
+  border:1px solid #e5e5e5;
+  overflow-x: auto;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
+}
+
+dt {
+  color:#444;
+  font-weight:700;
+}
+
+th {
+  color:#444;
+}
+
+img {
+  max-width:100%;
+  border-radius: 5px;
+}
+
+header {
+  width:270px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+ul.downloads {
+  list-style:none;
+  height:40px;
+  padding:0;
+  background: #f4f4f4;
+  border-radius:5px;
+  border:1px solid #e0e0e0;
+  width:270px;
+}
+
+.downloads li {
+  width:89px;
+  float:left;
+  border-right:1px solid #e0e0e0;
+  height:40px;
+}
+
+.downloads li:first-child a {
+  border-radius:5px 0 0 5px;
+}
+
+.downloads li:last-child a {
+  border-radius:0 5px 5px 0;
+}
+
+.downloads a {
+  line-height:1;
+  font-size:11px;
+  color:#676767;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:34px;
+}
+
+.downloads a:hover, .downloads a:focus {
+  color:#675C5C;
+  font-weight:bold;
+}
+
+.downloads ul a:active {
+  background-color:#f0f0f0;
+}
+
+strong {
+  color:#222;
+  font-weight:700;
+}
+
+.downloads li + li + li {
+  border-right:none;
+  width:89px;
+}
+
+.downloads a strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+}
+
+section {
+  width:520px;
+  float:right;
+  padding-bottom:50px;
+}
+
+small {
+  font-size:11px;
+}
+
+hr {
+  border:0;
+  background:#e5e5e5;
+  height:1px;
+  margin:0 0 20px;
+}
+
+footer {
+  width:270px;
+  float:left;
+  position:fixed;
+  bottom:50px;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+img.portrait {
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+
+  header {
+    padding-right:320px;
+  }
+
+  section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+
+  header a small {
+    display:inline;
+  }
+
+  header ul {
+    position:absolute;
+    right:50px;
+    top:52px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header {
+    padding:0;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+
+  pre, code {
+    word-wrap:normal;
+  }
+
+  img.portrait {
+    width: 70%;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding:15px;
+  }
+
+  .downloads {
+    width:99%;
+  }
+
+  .downloads li, .downloads li + li + li {
+    width:33%;
+  }
+}
+
+@media print {
+  body {
+    padding:0.4in;
+    font-size:12pt;
+    color:#444;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme:dark) {
+  body {
+    color:#dcdcdc;
+    background:#2a2a2a;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color:#fff;
+  }
+
+  h2 {
+    color:#f0f0f0;
+  }
+
+  h3, h4, h5, h6 {
+    color:#d0d0d0;
+  }
+
+  h3.subtitle {
+    color:#64d2ff;
+  }
+
+  a {
+    color:#5580b3;
+  }
+
+  a small {
+    color:#5580b3;
+  }
+
+  .wrapper {
+    width:860px;
+    margin:0 auto;
+  }
+
+  blockquote {
+    border-left:1px solid #e5e5e5;
+    margin:0;
+    padding:0 0 0 20px;
+    font-style:italic;
+  }
+
+  code, pre {
+    color:#b3b3b3;
+  }
+
+  pre {
+    background: #2a2a2a;
+  }
+
+  th, td {
+    border-bottom:1px solid #666666;
+  }
+
+  dt {
+    color:#c4c4c4;
+  }
+
+  th {
+    color:#c4c4c4;
+  }
+
+  ul.downloads {
+    background: #757575;
+  }
+
+  .downloads a {
+    color:#e7e7e7;
+  }
+
+  .downloads a:hover, .downloads a:focus {
+    color:#d3dfdf;
+  }
+
+  .downloads ul a:active {
+    background-color:#222;
+  }
+
+  strong {
+    color:#dcdcdc;
+  }
+
+  .downloads a strong {
+    font-size:14px;
+    display:block;
+    color:#dcdcdc;
+  }
+
+  hr {
+    background:#3a3a3a;
+  }
+
+  div.github-card {
+    background:#3a3a3a;
+  }
+}
+
+// Video related
+// https://www.ostraining.com/blog/coding/responsive-videos/
+
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+// Anchor with offset
+// https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+
+a.anchor {
+  display: block;
+  // margin-top: 10px;
+  position: relative;
+  top: -20px;
+  visibility: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
