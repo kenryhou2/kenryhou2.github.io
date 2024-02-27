@@ -2,25 +2,55 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
 
-[Link to another page](./another-page.html).
+<!-- [Link to another page](./another-page.html). -->
+
+<!-- ### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. -->
 
-# Header 1
+# About Me
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Hi, I'm a research assistant with passions in robotics, embedded firmware, and anything with cool tech demos. I also make videos and play ultimate frisbee for fun. You should checkout my youtube channel [Youtube channel]([youtube_link]) to get to know more about me.
 
-## Header 2
+* * *
 
-> This is a blockquote following a header.
+# Education
+* University of California, Los Angeles,
+Bachelor of Science degree in
+[Electrical Engineering][ucla_ee_link] with
+technical breadth in Computer Science (2017-2021).
+
+<!-- > This is a blockquote following a header.
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> When something is important enough, you do it even if the odds are not in your favor. -->
 
-### Header 3
+* * *
+
+# Work Experience
+
+### Carnegie Mellon University
+* 2023 - Current: Research Associate at the [Biorobotics Lab][bio_link] under [Dr. Howie Choset][howie_choset]
+* 2019: Summer Research Assistant on [Confined space laser scanner][blaser].
+
+### Texas Instruments
+* 2023 - 2024: Applications Engineer for DC Switching Regulators - Buck (WideVin) Group
+* 2022: Power Design Services Rotation
+* 2021: Applications Engineer Rotation
+
+### Raytheon
+* 2020: Summer Digital Hardware Intern
+
+# Resume
+Last updated: *December 2023*\\
+[Link to resume][resume_link]
+
+<!-- ### Header 3
 
 ```js
 // Javascript code with syntax highlighting.
@@ -94,14 +124,12 @@ end
 
 ### Small image
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png) -->
 
 
-### Definition lists can be used with HTML syntax.
+
+
+<!-- ### Definition lists can be used with HTML syntax.
 
 <dl>
 <dt>Name</dt>
@@ -120,4 +148,11 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-```
+``` -->
+
+[youtube_link]: https://www.youtube.com/@Kenry
+[ucla_ee_link]: https://www.ee.ucla.edu/
+[blaser]: http://biorobotics.ri.cmu.edu/research/ConfinedSpacePerception.php
+[bio_link]: http://biorobotics.ri.cmu.edu/index.php
+[howie_choset]: https://en.wikipedia.org/wiki/Howie_Choset
+[resume_link]: /assets/files/Henry_Kou_Resume_W23.pdf
